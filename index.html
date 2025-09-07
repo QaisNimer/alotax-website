@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="ALO Tax Consultants LLC" />
+    <link rel="shortcut icon" href="/icon/LOGO22.jpg" />
+    <style>
+      .social-icons {
+        display: flex;
+        gap: 10px;
+      }
+      .social-icons a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50px;
+        height: 40px;
+        border-radius: 8px; /* same rounded corners */
+        background-color: #1f9068; /* green */
+        color: #ffffff; /* white icons */
+        text-decoration: none;
+        padding-top: 10px;
+        padding-left: 10px;
+      }
+      .social-icons a:hover {
+        background-color: #157650;
+      }
+    </style>
+    <meta
+      name="description"
+      content="ALO Tax provides expert UAE VAT, Corporate Tax, audit and financial consulting services in Dubai. Navigate complex regulations with confidence."
+    />
+    <meta
+      name="keywords"
+      content="UAE VAT, corporate tax, tax consultancy, financial advisory, audit, Dubai tax services"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="fonts/icomoon/style.css" />
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+
+    <link rel="stylesheet" href="css/tiny-slider.css" />
+    <link rel="stylesheet" href="css/aos.css" />
+    <link rel="stylesheet" href="css/glightbox.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="stylesheet" href="css/flatpickr.min.css" />
+
+    <title>ALO Tax — UAE VAT & Corporate Tax Consultancy in Dubai</title>
+  </head>
+  <body>
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close">
+          <span class="icofont-close js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+
+    <nav class="site-nav">
+      <div class="container">
+        <div class="menu-bg-wrap">
+          <div class="site-navigation">
+            <div class="row g-0 align-items-center">
+              <div class="col-2">
+                <a href="index.html" class="logo m-0 float-start"
+                  >ALO Tax<span class="text-primary">.</span></a
+                >
+              </div>
+              <!--Nav Bar-->
+              <div class="col-8 text-center">
+                <ul
+                  class="js-clone-nav d-none d-lg-inline-block text-start site-menu mx-auto"
+                >
+                  <li class="active"><a href="#HomeSection">Home</a></li>
+                  <li><a href="#AboutSection">About</a></li>
+                  <li><a href="#JourneySection">Journey</a></li>
+                  <li><a href="#ServicesSection">Services</a></li>
+                  <li><a href="#NewsSection">News</a></li>
+                  <li><a href="#FAQSection">Questions</a></li>
+                  <li><a href="#ContactSection">Contact Us</a></li>
+                </ul>
+              </div>
+              <div class="col-2 text-end">
+                <a
+                  href="#"
+                  class="burger ms-auto float-end site-menu-toggle js-menu-toggle d-inline-block d-lg-none light"
+                >
+                  <span></span>
+                </a>
+
+                <a
+                  href="#"
+                  class="call-us d-flex align-items-center"
+                  onclick="copyPhoneNumber(event)"
+                >
+                  <span class="icon-phone"></span>
+                  <span id="phone-number">+971 52 250 4900</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="hero overlay" id="HomeSection">
+      <img src="images/blob.svg" alt="" class="img-fluid blob" />
+      <div class="container">
+        <div class="row align-items-center justify-content-between pt-5">
+          <div class="col-lg-6 text-center text-lg-start pe-lg-5">
+            <h1 class="heading text-white mb-3" data-aos="fade-up">
+              What Drives Us?
+            </h1>
+            <p class="text-white mb-5" data-aos="fade-up" data-aos-delay="100">
+              OUR VISION: To be known amongst the leading, assurance and tax
+              advisory services firm in the UAE.
+              <br /><br />
+              OUR MISSION: We endeavor to deliver valuable services and
+              solutions to our Clients for sustainable growth. We believe
+              “Together we achieve.”
+              <br /><br />
+              OUR VALUES: To maintain the quality of our service and
+              satisfaction of our Clients, we follow CIIA approach.
+            </p>
+
+            <div
+              class="align-items-center mb-5 mm"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <a
+                href="mailto:info@alotax.net"
+                class="btn btn-outline-white-reverse me-4"
+                >Send E-mail</a
+              >
+            </div>
+          </div>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="img-wrap">
+              <img
+                src="images/ALO_TAX_02.png"
+                alt="Image"
+                class="img-fluid rounded"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section" id="AboutSection">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-lg-7 mb-4 mb-lg-0">
+            <img
+              src="images/AboutMeSection3.jpg"
+              alt="Image"
+              class="img-fluid rounded"
+            />
+          </div>
+          <div class="col-lg-4 ps-lg-2">
+            <div class="mb-5">
+              <h2 class="text-black h4">Who We Are</h2>
+              <p>
+                At Alo Tax Consultants LLC, we specialize in Corporate Tax and
+                VAT services across the UAE — offering expert consultancy,
+                compliance support, and strategic advisory. Our mission is to
+                equip businesses with insightful reports and actionable
+                strategies to fuel sustainable growth and investor confidence.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section sec-features" id="JourneySection">
+      <div class="container">
+        <div
+          class="row justify-content-center align-items-center"
+          style="min-height: 60vh"
+        >
+          <div class="col-lg-6 text-center">
+            <h2 style="color: #ffffff">Explore Our Journey:</h2>
+            <h5 style="color: #ffffffcc">
+              A visual showcase of ALO Tax Consultants' expertise and dedication
+              to our clients in Dubai.
+            </h5>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section sec-services">
+      <div class="container" id="ServicesSection">
+        <div class="row mb-5">
+          <div class="col-lg-5 mx-auto text-center" data-aos="fade-up">
+            <h2 class="heading text-primary">Our Services</h2>
+            <p></p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12 col-sm-6 col-md-6 col-lg-4" data-aos="fade-up">
+            <div class="service text-center">
+              <span class="bi-file-earmark-text" style="font-size: 2rem"></span>
+              <div>
+                <h3>Tax & VAT Preparation</h3>
+                <p class="mb-4">
+                  We handle the complete preparation and submission of your
+                  Corporate Tax and VAT filings, ensuring full compliance with
+                  UAE regulations and on-time submissions.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-12 col-sm-6 col-md-6 col-lg-4"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div class="service text-center">
+              <span class="bi-lightbulb" style="font-size: 2rem"></span>
+              <div>
+                <h3>Tax Planning & Advisory</h3>
+                <p class="mb-4">
+                  Our tailored tax planning strategies help you reduce
+                  liabilities and make informed decisions aligned with your
+                  business objectives.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-12 col-sm-6 col-md-6 col-lg-4"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <div class="service text-center">
+              <span class="bi-clipboard-pulse" style="font-size: 2rem"></span>
+              <div>
+                <h3>VAT Health Check & Reconsideration</h3>
+                <p class="mb-4">
+                  We perform VAT audits to detect compliance risks and handle
+                  reconsideration submissions to resolve disputes or errors with
+                  the FTA.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col-12 col-sm-6 col-md-6 col-lg-4"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div class="service text-center">
+              <span class="bi-bar-chart-line"></span>
+              <div>
+                <h3>Financial Forecasting</h3>
+                <p class="mb-4">
+                  Stay financially prepared with our expert budgeting, cash flow
+                  projections, and variance analysis to support strategic
+                  planning and fund sourcing.
+                </p>
+                <br />
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-12 col-sm-6 col-md-6 col-lg-4"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <div class="service text-center">
+              <span class="bi-graph-up"></span>
+              <div>
+                <h3>Feasibility Studies & Investment Reports</h3>
+                <p class="mb-4">
+                  We prepare detailed feasibility and due diligence reports that
+                  attract investors and support key business decisions with
+                  data-backed insights.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-12 col-sm-6 col-md-6 col-lg-4"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
+            <div class="service text-center">
+              <span class="bi-gear-wide-connected"></span>
+              <div>
+                <h3>Cost Optimization Strategies</h3>
+                <p class="mb-4">
+                  Our consultants identify cost reduction opportunities and
+                  implement control measures to maximize efficiency and
+                  profitability.
+                </p>
+                <br />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- SECTION -->
+    <div
+      class="section"
+      id="NewsSection"
+      style="
+        background: linear-gradient(135deg, #1f9068, #2c3f47, #0066ff);
+        color: white;
+      "
+    >
+      <div class="container py-5">
+        <div class="row mb-4">
+          <div class="col-lg-6 mx-auto text-center">
+            <h2 class="heading text-white mb-3" data-aos="fade-up">NEWS</h2>
+            <p class="mb-4 text-light" data-aos="fade-up" data-aos-delay="100">
+              Latest updates directly from the UAE Federal Tax Authority (FTA).
+            </p>
+            <div id="post-slider-nav" data-aos="fade-up" data-aos-delay="200">
+              <button class="btn btn-light me-2" id="prevBtn">Prev</button>
+              <button class="btn btn-light" id="nextBtn">Next</button>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="row justify-content-center"
+          data-aos="fade-up"
+          data-aos-delay="300"
+        >
+          <div class="col-lg-8">
+            <div
+              id="news-slider"
+              class="bg-white p-4 shadow rounded text-center text-dark"
+              style="min-height: 120px"
+            >
+              Loading latest news...
+            </div>
+            <div id="dots" class="text-center mt-3"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SCRIPT -->
+    <script>
+      document.addEventListener("DOMContentLoaded", async () => {
+        const container = document.getElementById("news-slider");
+        const dotsContainer = document.getElementById("dots");
+        const prevBtn = document.getElementById("prevBtn");
+        const nextBtn = document.getElementById("nextBtn");
+
+        let newsItems = [];
+        let currentIndex = 0;
+        let autoSlideInterval;
+
+        function renderNews(index) {
+          const item = newsItems[index];
+          container.innerHTML = `
+		  <a href="${item.href}" target="_blank" class="text-dark fw-bold text-decoration-none">
+			<i class="bi bi-arrow-right-circle me-2 text-primary"></i>${item.title}
+		  </a>`;
+          updateDots(index);
+        }
+
+        function updateDots(index) {
+          dotsContainer.innerHTML = "";
+          newsItems.forEach((_, i) => {
+            const dot = document.createElement("span");
+            dot.style.height = "12px";
+            dot.style.width = "12px";
+            dot.style.margin = "0 6px";
+            dot.style.borderRadius = "50%";
+            dot.style.display = "inline-block";
+            dot.style.backgroundColor = i === index ? "#ffffff" : "#aaaaaa";
+            dot.style.opacity = i === index ? "1" : "0.4";
+            dotsContainer.appendChild(dot);
+          });
+        }
+
+        function showNext() {
+          currentIndex = (currentIndex + 1) % newsItems.length;
+          renderNews(currentIndex);
+        }
+
+        function showPrev() {
+          currentIndex =
+            (currentIndex - 1 + newsItems.length) % newsItems.length;
+          renderNews(currentIndex);
+        }
+
+        function startAutoSlide() {
+          stopAutoSlide();
+          autoSlideInterval = setInterval(showNext, 5000);
+        }
+
+        function stopAutoSlide() {
+          if (autoSlideInterval) clearInterval(autoSlideInterval);
+        }
+
+        try {
+          const proxy = "https://api.allorigins.win/raw?url=";
+          const url = "https://tax.gov.ae/en/default.aspx";
+          const res = await fetch(proxy + encodeURIComponent(url));
+          const html = await res.text();
+
+          const parser = new DOMParser();
+          const doc = parser.parseFromString(html, "text/html");
+
+          const links = doc.querySelectorAll(".slick-slide a[title]");
+
+          links.forEach((link) => {
+            newsItems.push({
+              title: link.getAttribute("title"),
+              href: link.href,
+            });
+          });
+
+          if (newsItems.length > 0) {
+            renderNews(currentIndex);
+            startAutoSlide();
+          } else {
+            container.innerHTML =
+              "<div class='text-danger'>No news found.</div>";
+          }
+        } catch (error) {
+          console.error("Error fetching news:", error);
+          container.innerHTML =
+            "<div class='text-danger'>Failed to load news.</div>";
+        }
+
+        prevBtn.addEventListener("click", () => {
+          showPrev();
+          startAutoSlide();
+        });
+
+        nextBtn.addEventListener("click", () => {
+          showNext();
+          startAutoSlide();
+        });
+      });
+    </script>
+
+    <!-- BOOTSTRAP ICONS (make sure you include this if not already) -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!--Questions Section-->
+    <!-- FAQ SECTION -->
+    <div class="section py-5 bg-faq-white" id="FAQSection">
+      <div class="container">
+        <div class="row justify-content-center mb-5">
+          <div class="col-lg-8 text-center">
+            <h5
+              class="text-uppercase text-muted mb-3"
+              style="letter-spacing: 2px"
+            >
+              Frequently Asked Questions
+            </h5>
+            <p class="text-muted">
+              Please reach us at
+              <a href="mailto:info@alotax.net" class="text-primary"
+                >info@alotax.net</a
+              >
+              if you cannot find an answer to your question.
+            </p>
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <div class="accordion" id="faqAccordion">
+              <!-- Question 1 -->
+              <div class="accordion-item border-0 border-bottom">
+                <h2 class="accordion-header" id="faqHeading1">
+                  <button
+                    class="accordion-button collapsed bg-white"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#faqCollapse1"
+                    aria-expanded="false"
+                    aria-controls="faqCollapse1"
+                  >
+                    What is the experience of ALO Tax’s team members?
+                  </button>
+                </h2>
+                <div
+                  id="faqCollapse1"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="faqHeading1"
+                  data-bs-parent="#faqAccordion"
+                >
+                  <div class="accordion-body text-muted">
+                    Our team members have a combined experience of over 15 years
+                    in the tax consulting industry.
+                  </div>
+                </div>
+              </div>
+
+              <!-- Question 2 -->
+              <div class="accordion-item border-0 border-bottom">
+                <h2 class="accordion-header" id="faqHeading2">
+                  <button
+                    class="accordion-button collapsed bg-white"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#faqCollapse2"
+                    aria-expanded="false"
+                    aria-controls="faqCollapse2"
+                  >
+                    What types of taxes does ALO Tax specialize in?
+                  </button>
+                </h2>
+                <div
+                  id="faqCollapse2"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="faqHeading2"
+                  data-bs-parent="#faqAccordion"
+                >
+                  <div class="accordion-body text-muted">
+                    We specialize in UAE VAT, Corporate Tax, Audit, Financial
+                    Reporting, Financial Planning and Analysis, Financial
+                    Management, Financial Trainings, Administrative Management
+                    Consulting Services.
+                  </div>
+                </div>
+              </div>
+
+              <!-- Question 3 -->
+              <div class="accordion-item border-0 border-bottom">
+                <h2 class="accordion-header" id="faqHeading3">
+                  <button
+                    class="accordion-button collapsed bg-white"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#faqCollapse3"
+                    aria-expanded="false"
+                    aria-controls="faqCollapse3"
+                  >
+                    What is ALO Tax’s approach to tax planning?
+                  </button>
+                </h2>
+                <div
+                  id="faqCollapse3"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="faqHeading3"
+                  data-bs-parent="#faqAccordion"
+                >
+                  <div class="accordion-body text-muted">
+                    Our approach to tax planning is personalized and tailored to
+                    each client’s unique situation. We work closely with our
+                    clients to ensure that they are taking advantage of all
+                    available tax deductions and credits.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--End of Questions Section-->
+
+    <!--Contact Us-->
+    <div class="section py-5 bg-faq-gray" id="ContactSection">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-lg-7">
+            <h2 class="heading text-primary mb-4 text">Contact Us</h2>
+          </div>
+        </div>
+
+        <div class="row">
+          <!-- Contact Info (Left Side) -->
+          <div class="col-lg-5 mb-4 mb-lg-0">
+            <ul class="list-unstyled">
+              <li class="d-flex mb-4">
+                <div class="me-3">
+                  <span class="bi bi-geo-alt-fill fs-3 text-success"></span>
+                </div>
+                <div>
+                  <strong class="d-block text-black">Location:</strong>
+                  <span class="text-muted"
+                    >Office 443, Al Barsha Business Center , Dubai - UAE</span
+                  >
+                </div>
+              </li>
+
+              <li class="d-flex mb-4">
+                <div class="me-3">
+                  <span class="bi bi-clock-fill fs-3 text-success"></span>
+                </div>
+                <div>
+                  <strong class="d-block text-black">Open Hours:</strong>
+                  <span class="text-muted"
+                    >Monday–Friday:<br />09:00 AM – 05:00 PM</span
+                  >
+                </div>
+              </li>
+
+              <li class="d-flex mb-4">
+                <div class="me-3">
+                  <span class="bi bi-envelope-fill fs-3 text-success"></span>
+                </div>
+                <div>
+                  <strong class="d-block text-black">Email:</strong>
+                  <a
+                    class="text-muted"
+                    href="mailto:info@alotax.net"
+                    target="_blank"
+                    >info@alotax.net</a
+                  >
+                </div>
+              </li>
+
+              <li class="d-flex">
+                <div class="me-3">
+                  <span class="bi bi-telephone-fill fs-3 text-success"></span>
+                </div>
+                <div>
+                  <strong class="d-block text-black">Call:</strong>
+                  <span class="text-muted">+971 52 250 4900</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Contact Form (Right Side) -->
+          <div class="col-lg-7">
+            <form action="https://formspree.io/f/yourFormID" method="POST">
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <input
+                    type="text"
+                    name="name"
+                    class="form-control"
+                    placeholder="Your Name"
+                    required
+                  />
+                </div>
+                <div class="col-md-6 mb-3">
+                  <input
+                    type="email"
+                    name="email"
+                    class="form-control"
+                    placeholder="Your Email"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div class="mb-3">
+                <input
+                  type="text"
+                  name="subject"
+                  class="form-control"
+                  placeholder="Subject"
+                />
+              </div>
+
+              <div class="mb-3">
+                <textarea
+                  name="message"
+                  class="form-control"
+                  rows="6"
+                  placeholder="Message"
+                  required
+                ></textarea>
+              </div>
+
+              <!-- Optional: Redirect after submit -->
+              <input
+                type="hidden"
+                name="_next"
+                value="https://yourwebsite.com/thank-you.html"
+              />
+
+              <div class="mb-3"></div>
+            </form>
+            <div class="mb-3">
+              <button
+                type="submit"
+                class="btn btn-success px-4 py-2 text-uppercase fw-bold"
+              >
+                Send Message
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <!-- /.widget -->
+            <div class="widget">
+              <address>
+                Office 443, Al Barsha Business Center<br />
+                Dubai - UAE
+              </address>
+              <ul class="list-unstyled links">
+                <li><a href="tel://11234567890">+971 52 250 4900</a></li>
+                <li>
+                  <a href="mailto:info@alotax.net">Mail Me</a>
+                </li>
+              </ul>
+            </div>
+            <!-- /.widget -->
+          </div>
+          <!-- /.col-lg-4 -->
+          <div class="col-lg-4"></div>
+          <div class="col-lg-4">
+            <div class="widget">
+              <div class="widget">
+                <h3>Company</h3>
+                <ul class="list-unstyled float-start links">
+                  <li class="active"><a href="index.html">Home</a></li>
+                  <li><a href="#AboutSection">About</a></li>
+                  <li><a href="#JourneySection">Journey</a></li>
+                  <li><a href="#ServicesSection">Services</a></li>
+                  <li><a href="#NewsSection">News</a></li>
+                  <li><a href="#FAQSection">Questions</a></li>
+                  <li><a href="#ContactSection">Contact Us</a></li>
+                </ul>
+              </div>
+              <div class="social-icons" hidden>
+                <h3>Social</h3>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                <!-- <a href="#"><i class="fa-brands fa-facebook-f"></i></a> -->
+                <!-- <a href="#"><i class="fa-brands fa-instagram"></i></a> -->
+                <!-- <a href="#"><i class="fa-brands fa-dribbble"></i></a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-5">
+          <div class="col-12 text-center">
+            <p>
+              Copyright &copy;
+              <script>
+                document.write(new Date().getFullYear());
+              </script>
+              . All Rights Reserved. &mdash; Developed By
+              <a
+                href="https://qaisnimer.students.jasseralshaer.com/"
+                target="_blank"
+              >
+                Qais Nimer
+              </a>
+              <br />
+              Template:
+              <a href="https://untree.co" target="_blank">Untree.co</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="overlayer"></div>
+    <div class="loader">
+      <div class="spinner-border text-primary" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+    </div>
+    <!--Scroll bar-->
+    <a href="#HomeSection" id="scrollToTopBtn" class="scroll-top-link">
+      <i class="bi bi-arrow-up"></i>
+    </a>
+    <script>
+      const scrollBtn = document.getElementById("scrollToTopBtn");
+
+      window.addEventListener("scroll", () => {
+        if (window.scrollY > 300) {
+          scrollBtn.classList.add("show");
+        } else {
+          scrollBtn.classList.remove("show");
+        }
+      });
+
+      // Optional: Smooth scroll to section
+      document
+        .querySelector("#scrollToTopBtn")
+        .addEventListener("click", function (e) {
+          e.preventDefault();
+          document
+            .querySelector("#HomeSection")
+            ?.scrollIntoView({ behavior: "smooth" });
+        });
+    </script>
+    <!--End of scroll bar-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/tiny-slider.js"></script>
+
+    <script src="js/flatpickr.min.js"></script>
+
+    <script src="js/aos.js"></script>
+    <script src="js/glightbox.min.js"></script>
+    <script src="js/navbar.js"></script>
+    <script src="js/counter.js"></script>
+    <script src="js/custom.js"></script>
+    <script>
+      function copyPhoneNumber(event) {
+        event.preventDefault(); // prevent default link behavior
+        const phone = document.getElementById("phone-number").textContent;
+
+        // Use Clipboard API
+        navigator.clipboard
+          .writeText(phone)
+          .then(() => {
+            alert("Phone number copied to clipboard!");
+          })
+          .catch((err) => {
+            console.error("Failed to copy: ", err);
+          });
+      }
+    </script>
+  </body>
+</html>
